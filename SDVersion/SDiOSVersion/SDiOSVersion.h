@@ -68,6 +68,12 @@ typedef NS_ENUM(NSInteger, DeviceSize){
     Screen6Dot5inch = 7
 };
 
+
+#pragma mark - iPhone without home button
+
+#define IS_IPHONE_X ([SDiOSVersion deviceSize] == Screen5Dot8inch || [SDiOSVersion deviceSize] == Screen6Dot1inch || [SDiOSVersion deviceSize] == Screen6Dot5inch)
+
+
 @interface SDiOSVersion : NSObject
 
 + (DeviceVersion)deviceVersion;
