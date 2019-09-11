@@ -114,7 +114,8 @@
                               @"iPod3,1" : @(iPodTouch3Gen),
                               @"iPod4,1" : @(iPodTouch4Gen),
                               @"iPod5,1" : @(iPodTouch5Gen),
-                              @"iPod7,1" : @(iPodTouch6Gen)};
+                              @"iPod7,1" : @(iPodTouch6Gen),
+                              @"iPod9,1" : @(iPodTouch7Gen)};
 #pragma clang diagnostic pop
     });
 
